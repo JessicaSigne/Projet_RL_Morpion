@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Projet_Morpion_Complet
 Création du jeu  Morpion avec Apprentissage par Renforcement (Q-Learning)
 =======
@@ -8,7 +7,7 @@ Création du jeu  Morpion avec Apprentissage par Renforcement (Q-Learning)
 **Jessica SIGNE**  
 📧 Email : jessicasigne44@gmail.com  
 📅 Date : Janvier 2026
-GitHub : https://github.com/JessicaSigne/Projet_Morpion_RL.git
+GitHub : https://github.com/JessicaSigne/Projet_RL_Morpion.git
 ---
 
 ## 📋 Description du Projet
@@ -70,11 +69,7 @@ PROJET_MORPION_COMPLET/
 - **Python 3.8+**
 - **Système d'exploitation** : Windows, macOS, Linux
 
-### Étape 1 : Cloner le Projet
-```bash git clone <URL_DU_REPO> cd PROJET_MORPION_COMPLET
-``` 
-
-### Étape 2 : Installer les Dépendances
+### Installer les Dépendances
 ```bash
 pip install -r requirements.txt
 ```
