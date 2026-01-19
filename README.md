@@ -1,5 +1,5 @@
 # Projet_Morpion_Complet
-Création du jeu  Morpion avec Apprentissage par Renforcement (Q-Learning)
+
 =======
 # 🎮 Morpion avec Apprentissage par Renforcement (Q-Learning)
 
