@@ -6,7 +6,7 @@ Création du jeu  Morpion avec Apprentissage par Renforcement (Q-Learning)
 ## 👤 Auteur
 **Jessica SIGNE**  
 📧 Email : jessicasigne44@gmail.com  
-📅 Date : Janvier 2026
+📅 Date : Janvier 2026 
 GitHub : https://github.com/JessicaSigne/Projet_RL_Morpion.git
 ---
 
