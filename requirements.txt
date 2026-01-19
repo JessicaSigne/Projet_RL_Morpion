@@ -1,0 +1,11 @@
+# --- Moteur de calcul et gestion des données ---
+numpy>=1.21.0        # Utilisé pour la manipulation des tableaux (board)
+
+# --- Interface graphique et jeu ---
+pygame>=2.5.0        # Bibliothèque principale pour l'affichage et les événements 
+
+# --- Visualisation des résultats  ---
+matplotlib>=3.7.0    # Pour générer les graphiques d'entraînement et d'évaluation
+
+# --- Utilitaires ---
+# pickle (intégré à Python par défaut, pas besoin de le lister ici)
