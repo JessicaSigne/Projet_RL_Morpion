@@ -7,6 +7,7 @@
 **Jessica SIGNE**  
 📧 Email : jessicasigne44@gmail.com  
 📅 Date : Janvier 2026 
+
 GitHub : https://github.com/JessicaSigne/Projet_RL_Morpion.git
 ---
 
@@ -78,7 +79,8 @@ pip install -r requirements.txt
 
 Pour entraîner l'agent et générer les graphiques de performance :```python -m models.entrainement_agent```
 
-```Paramètres optimaux :``` 70 000 épisodes, $\alpha=0.1$, $\gamma=0.95$. 9Résultat : Génère le fichier ```morpion_qtable.pkl``` et les courbes d'apprentissage.
+```Paramètres optimaux :``` 70 000 épisodes, $\alpha=0.1$, $\gamma=0.95$
+Résultat : Génère le fichier ```morpion_qtable.pkl``` et les courbes d'apprentissage.
 
 ## 📊 Évaluation (Modes automatiques)
 
@@ -96,7 +98,7 @@ Pour lancer le jeu avec le menu interactif : ```python main.py```
 
 ### **Mode 3 : Agent vs Agent (Self-Play), Visualisation accélérée**
 
-
+---
 ## 📈 Résultats
 
 *Apprentissage :* L'agent atteint une convergence vers un taux de victoire de ```~82%``` contre un joueur aléatoire.
@@ -107,7 +109,7 @@ Pour lancer le jeu avec le menu interactif : ```python main.py```
 
 *Exploration :* La décroissance progressive d'Epsilon a permis une couverture optimale des états du plateau.
 
-
+---
 ## 📈 Visualisations et Analyse des Performances
 
 Le projet génère automatiquement une série de graphiques permettant de valider l'apprentissage de l'IA.
@@ -134,21 +136,24 @@ Le projet génère automatiquement une série de graphiques permettant de valide
 *Équilibre de Nash :* L'image ```eval_agentvsagent.png```  prouve qu'aucun des deux agents (X ou O) ne peut plus prendre l'avantage sur l'autre.
 
 *Symétrie des forces :* On constate sur ```eval_agentvsagent.png``` l'absence totale de victoires pour X ou O, confirmant une défense parfaite.
----
 
+---
 ## 🚀 Améliorations Futures
 
 ### 🛠️ Court terme
 
 *Niveaux de difficulté :* Intégrer un sélecteur permettant de jouer contre une IA "Débutante" (Epsilon élevé) ou "Experte" (Epsilon = 0).
 
-*Historique local :* Sauvegarder les statistiques des sessions de jeu (victoires/défaites de l'utilisateur) dans un fichier JSON ou CSV.
+*Historique local :* Sauvegarder les statistiques des sessions de jeu (victoires/défaites de l'utilisateur) dans un fichier json ou csv.
 
 *Animations Pygame :* Ajouter des effets de transition fluides lors de l'apparition des X et des O sur la grille.
 
+---
 ### 🧠 Long terme (IA Avancée)Deep Q-Learning (DQN) 
 
-Remplacer la Q-Table par un réseau de neurones avec PyTorch ou TensorFlow pour gérer des jeux plus complexes.Généralisation au ```Puissance 4``` : Adapter l'environnement pour une grille de $7 \times 6$, nécessitant une gestion plus fine de l'espace des états.AlphaZero-style : Implémenter un algorithme de recherche arborescente ```Monte Carlo (MCTS)``` combiné à un réseau de neurones pour une IA imbattable sur n'importe quelle taille de grille.
+Remplacer la Q-Table par un réseau de neurones avec PyTorch ou TensorFlow pour gérer des jeux plus complexes.Généralisation au ```Puissance 4``` : Adapter l'environnement pour une grille de $7 \times 6$, nécessitant une gestion plus fine de l'espace des états.
+
+```AlphaZero-style``` : Implémenter un algorithme de recherche arborescente ```Monte Carlo (MCTS)``` combiné à un réseau de neurones pour une IA imbattable sur n'importe quelle taille de grille.
 
 ---
 
