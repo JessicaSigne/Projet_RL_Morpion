@@ -171,13 +171,4 @@ Tous droits réservés © 2026 Jessica SIGNE
 
 Pour toute question sur le projet, l'implémentation ou les résultats, n'hésitez pas à me contacter !
 
----
 
-## 🙏 Remerciements
-
-- **Professeur** : Pour l'encadrement et les conseils
-- **Anthropic** : Pour Claude AI (assistance au développement)
-- **Communauté Python** : Pygame, NumPy, Matplotlib
-
----
->>>>>>> 8674ba8 (Initial commit)
